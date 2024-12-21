@@ -1,0 +1,90 @@
+body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-size: 100%;
+        background: url("/static/2.jpg") no-repeat center center fixed;
+        background-size: cover;
+        color: yellow;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: large;
+}
+
+.container {
+        text-align: center;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+label {
+        margin-top: 10px;
+}
+
+input {
+        padding: 10px;
+        margin-top: 5px;
+        width: 100%;
+        box-sizing: border-box;
+}
+
+button {
+        padding: 10px 20px;
+        margin-top: 20px;
+        cursor: pointer;
+        font-size: medium;
+        font-weight: bold;
+}
+
+button:hover {
+        color: white;
+        background-color: blue;
+}
+
+h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+}
+
+input {
+        font-weight: bold;
+        font-size: medium;
+}
+
+input:hover {
+        color: white;
+        background-color: blue;
+}
+
+table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+}
+
+table,
+th,
+td {
+        border: 1px solid #ddd;
+}
+
+th,
+td {
+        padding: 10px;
+        text-align: left;
+}
+
+th {
+        background-color: #333;
+        color: white;
+}
